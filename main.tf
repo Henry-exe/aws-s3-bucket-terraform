@@ -6,7 +6,7 @@ resource "aws_s3_bucket" "bucket_teste_hgs" {
     acl = "private" 
 
 tags = {
-    Name        = "Meu bucket de portfólio"
+    Name        = "meu bucket de teste"
     Environment = "Dev"
   } 
 }
